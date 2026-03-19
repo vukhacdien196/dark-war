@@ -1,0 +1,196 @@
+{
+  "rooms": {
+    "bathroom": {
+      "name": "Phòng tắm",
+      "icon": "pi pi-home",
+      "samples": [
+        {
+          "id": "bathroom01",
+          "name": "Phòng tắm hiện đại",
+          "image": "/rooms/preview/bathroom01.jpg",
+          "description": "Thiết kế phòng tắm hiện đại với gạch ốp lát cao cấp"
+        },
+        {
+          "id": "bathroom02",
+          "name": "Phòng tắm sang trọng",
+          "image": "/rooms/preview/bathroom02.jpg",
+          "description": "Phòng tắm sang trọng với thiết kế tinh tế"
+        },
+        {
+          "id": "bathroom03",
+          "name": "Phòng tắm tiện nghi",
+          "image": "/rooms/preview/bathroom03.jpg",
+          "description": "Phòng tắm tiện nghi với không gian rộng rãi"
+        }
+      ],
+      "designed": [
+        {
+          "id": "bathroom01",
+          "name": "Phòng tắm hiện đại",
+          "image": "/rooms/preview/bathroom01.jpg",
+          "description": "Thiết kế phòng tắm hiện đại với gạch ốp lát cao cấp"
+        },
+        {
+          "id": "bathroom02",
+          "name": "Phòng tắm sang trọng",
+          "image": "/rooms/preview/bathroom02.jpg",
+          "description": "Phòng tắm sang trọng với thiết kế tinh tế"
+        },
+        {
+          "id": "bathroom03",
+          "name": "Phòng tắm tiện nghi",
+          "image": "/rooms/preview/bathroom03.jpg",
+          "description": "Phòng tắm tiện nghi với không gian rộng rãi"
+        }
+      ]
+    },
+    "living": {
+      "name": "Phòng khách",
+      "icon": "pi pi-home",
+      "samples": [
+        {
+          "id": "livingroom02",
+          "name": "Phòng khách ấm cúng",
+          "image": "/rooms/preview/livingroom02.jpg",
+          "description": "Phòng khách ấm cúng với thiết kế hiện đại"
+        },
+        {
+          "id": "livingroom03",
+          "name": "Phòng khách sang trọng",
+          "image": "/rooms/preview/livingroom03.jpg",
+          "description": "Phòng khách sang trọng với không gian rộng rãi"
+        }
+      ],
+      "designed": [
+        {
+          "id": "livingroom02",
+          "name": "Phòng khách ấm cúng",
+          "image": "/rooms/preview/livingroom02.jpg",
+          "description": "Phòng khách ấm cúng với thiết kế hiện đại"
+        },
+        {
+          "id": "livingroom03",
+          "name": "Phòng khách sang trọng",
+          "image": "/rooms/preview/livingroom03.jpg",
+          "description": "Phòng khách sang trọng với không gian rộng rãi"
+        }
+      ]
+    },
+    "kitchen": {
+      "name": "Phòng bếp",
+      "icon": "pi pi-home",
+      "samples": [
+        {
+          "id": "kitchen01",
+          "name": "Phòng bếp hiện đại",
+          "image": "/rooms/preview/kitchen01.jpg",
+          "description": "Phòng bếp hiện đại với thiết bị tiện nghi"
+        },
+        {
+          "id": "kitchen02",
+          "name": "Phòng bếp sang trọng",
+          "image": "/rooms/preview/kitchen02.jpg",
+          "description": "Phòng bếp sang trọng với thiết kế tinh tế"
+        }
+      ],
+      "designed": [
+        {
+          "id": "kitchen01",
+          "name": "Phòng bếp hiện đại",
+          "image": "/rooms/preview/kitchen01.jpg",
+          "description": "Phòng bếp hiện đại với thiết bị tiện nghi"
+        },
+        {
+          "id": "kitchen02",
+          "name": "Phòng bếp sang trọng",
+          "image": "/rooms/preview/kitchen02.jpg",
+          "description": "Phòng bếp sang trọng với thiết kế tinh tế"
+        }
+      ]
+    },
+    "bedroom": {
+      "name": "Phòng ngủ",
+      "icon": "pi pi-home",
+      "samples": [
+        {
+          "id": "bedroom01",
+          "name": "Phòng ngủ ấm cúng",
+          "image": "/rooms/preview/bedroom01.jpg",
+          "description": "Phòng ngủ ấm cúng với thiết kế hiện đại"
+        }
+      ],
+      "designed": [
+        {
+          "id": "bedroom01",
+          "name": "Phòng ngủ ấm cúng",
+          "image": "/rooms/preview/bedroom01.jpg",
+          "description": "Phòng ngủ ấm cúng với thiết kế hiện đại"
+        }
+      ]
+    },
+    "outdoor": {
+      "name": "Ngoài trời",
+      "icon": "pi pi-home",
+      "samples": [
+        {
+          "id": "outside01",
+          "name": "Không gian ngoài trời",
+          "image": "/rooms/preview/outside01.jpg",
+          "description": "Không gian ngoài trời với thiết kế tự nhiên"
+        },
+        {
+          "id": "outside02",
+          "name": "Sân vườn đẹp",
+          "image": "/rooms/preview/outside02.jpg",
+          "description": "Sân vườn đẹp với cảnh quan thiên nhiên"
+        }
+      ],
+      "designed": [
+        {
+          "id": "outside01",
+          "name": "Không gian ngoài trời",
+          "image": "/rooms/preview/outside01.jpg",
+          "description": "Không gian ngoài trời với thiết kế tự nhiên"
+        },
+        {
+          "id": "outside02",
+          "name": "Sân vườn đẹp",
+          "image": "/rooms/preview/outside02.jpg",
+          "description": "Sân vườn đẹp với cảnh quan thiên nhiên"
+        }
+      ]
+    }
+  },
+  "categories": [
+    {
+      "id": "all",
+      "name": "Tất cả",
+      "icon": "pi pi-th-large"
+    },
+    {
+      "id": "bathroom",
+      "name": "Phòng tắm",
+      "icon": "pi pi-home"
+    },
+    {
+      "id": "living",
+      "name": "Phòng khách",
+      "icon": "pi pi-home"
+    },
+    {
+      "id": "kitchen",
+      "name": "Phòng bếp",
+      "icon": "pi pi-home"
+    },
+    {
+      "id": "bedroom",
+      "name": "Phòng ngủ",
+      "icon": "pi pi-home"
+    },
+    {
+      "id": "outdoor",
+      "name": "Ngoài trời",
+      "icon": "pi pi-home"
+    }
+  ]
+}

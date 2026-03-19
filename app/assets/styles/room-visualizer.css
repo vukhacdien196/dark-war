@@ -1,0 +1,202 @@
+/* Room Visualizer Global Styling */
+
+/* Room Visualizer Container */
+.room-visualizer-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Room Visualizer Topbar */
+.room-topbar {
+  position: absolute;
+  top: 1rem;
+  left: 1.25rem;
+  z-index: 50;
+}
+
+.room-topbar .topbar-content {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 174, 239, 0.2);
+  border-radius: 12px;
+  padding: 0.75rem;
+  box-shadow: 0 4px 16px rgba(0, 174, 239, 0.1);
+  transition: all 0.3s ease;
+}
+
+.room-topbar .topbar-content:hover {
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 6px 20px rgba(0, 174, 239, 0.15);
+}
+
+/* Room Visualizer Action Buttons */
+.room-actions {
+  position: absolute;
+  bottom: 1.25rem;
+  right: 1.25rem;
+  z-index: 50;
+}
+
+.room-actions .actions-content {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 174, 239, 0.2);
+  border-radius: 12px;
+  padding: 0.75rem;
+  box-shadow: 0 4px 16px rgba(0, 174, 239, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Room Visualizer Buttons - Sao Vàng Brand Colors */
+.btn-room-toggle,
+.btn-room-action {
+  background: linear-gradient(135deg, #00AEEF, #0078D4) !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 50% !important;
+  width: 2.5rem !important;
+  height: 2.5rem !important;
+  transition: all 0.3s ease !important;
+  box-shadow: 0 2px 8px rgba(0, 174, 239, 0.3) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.btn-room-toggle:hover,
+.btn-room-action:hover {
+  background: linear-gradient(135deg, #0078D4, #00AEEF) !important;
+  transform: scale(1.1) !important;
+  box-shadow: 0 4px 12px rgba(0, 174, 239, 0.4) !important;
+}
+
+.btn-room-toggle:active,
+.btn-room-action:active {
+  transform: scale(0.95) !important;
+}
+
+/* Toggle Button Special States */
+.btn-room-toggle.expanded {
+  background: linear-gradient(135deg, #0078D4, #00AEEF) !important;
+  transform: rotate(180deg) !important;
+}
+
+.btn-room-toggle.expanded:hover {
+  background: linear-gradient(135deg, #00AEEF, #0078D4) !important;
+  transform: rotate(180deg) scale(1.1) !important;
+}
+
+/* Icon Styling */
+.btn-room-toggle .p-button-icon,
+.btn-room-action .p-button-icon {
+  color: white !important;
+  font-size: 1rem !important;
+  font-weight: bold !important;
+}
+
+/* Menu Styling */
+.room-menu {
+  background: rgba(255, 255, 255, 0.95) !important;
+  backdrop-filter: blur(10px) !important;
+  border: 1px solid rgba(0, 174, 239, 0.2) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 8px 32px rgba(0, 174, 239, 0.15) !important;
+  margin-top: 0.5rem !important;
+}
+
+.room-menu .p-menuitem-link {
+  color: #333 !important;
+  transition: all 0.3s ease !important;
+  border-radius: 8px !important;
+  margin: 2px !important;
+  padding: 0.75rem 1rem !important;
+}
+
+.room-menu .p-menuitem-link:hover {
+  background: linear-gradient(135deg, rgba(0, 174, 239, 0.1), rgba(0, 120, 212, 0.1)) !important;
+  color: #00AEEF !important;
+  transform: translateX(4px) !important;
+}
+
+.room-menu .p-menuitem-icon {
+  color: #00AEEF !important;
+  margin-right: 0.5rem !important;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .btn-room-toggle,
+  .btn-room-action {
+    width: 2rem !important;
+    height: 2rem !important;
+  }
+  
+  .btn-room-toggle .p-button-icon,
+  .btn-room-action .p-button-icon {
+    font-size: 0.875rem !important;
+  }
+  
+  .room-topbar {
+    top: 0.5rem;
+    left: 0.5rem;
+  }
+  
+  .room-actions {
+    bottom: 0.5rem;
+    right: 0.5rem;
+  }
+}
+
+/* Animation Classes */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.room-menu-enter {
+  animation: fadeInDown 0.3s ease-out;
+}
+
+.room-menu-leave {
+  animation: fadeInUp 0.3s ease-out reverse;
+}
+
+/* Focus States for Accessibility */
+.btn-room-toggle:focus,
+.btn-room-action:focus {
+  outline: 2px solid rgba(0, 174, 239, 0.5) !important;
+  outline-offset: 2px !important;
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+  .btn-room-toggle,
+  .btn-room-action {
+    border: 2px solid white !important;
+  }
+  
+  .room-menu {
+    border: 2px solid #00AEEF !important;
+  }
+}

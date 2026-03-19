@@ -1,0 +1,95 @@
+{
+    "data": {
+      "Id": "livingroom03",
+      "Title": "Living Room",
+      "BackgroundImageUrl": "/rooms/products/livingroom/03/background.jpg",
+      "RoomImageUrl": "/rooms/products/livingroom/03/room.png",
+      "GlossyImageUrl": "/rooms/products/livingroom/03/glossy.jpg",
+      "MattImageUrl": "/rooms/products/livingroom/03/matt.jpg",
+      "Width": 1920,
+      "Height": 1080.96,
+      "SetDesign": {
+        "WallAreas": [
+          {
+            "TileType": [
+              "2"
+            ],
+            "BaseWidth": 2400,
+            "BaseHeight": 759.419803797613,
+            "BottomLeft": [-0.136666666666667, 0],
+            "TopLeft": [0.230666666666667, 0.260509177027827],
+            "TopRight": [0.757666666666667, 0.260509177027827],
+            "BottomRight": [1.11333333333333, 0],
+            "TileRateWidth": 0.461264313728,
+            "TileRateHeight": 0.243901922304,
+            "OffsetY": 200,
+            "GroutHSize": 0.5,
+            "GUID": "F"
+          },
+          {
+            "TileType": [
+              "3",
+              "Paint"
+            ],
+            "BaseWidth": 1026.56,
+            "BaseHeight": 682.24,
+            "BottomLeft": [0.226666666666667, 0.260509177027827],
+            "TopLeft": [0.226666666666667, 0.891651865008881],
+            "TopRight": [0.761333333333333, 0.891651865008881],
+            "BottomRight": [0.761333333333333, 0.260509177027827],
+            "GroutHSize": 0.5,
+            "GroutVSize": 0.5,
+            "TileRateWidth": 0.200106666688,
+            "TileRateHeight": 0.202057142848,
+            "GUID": "M"
+          },
+          {
+            "TileType": [
+              "3",
+              "Paint"
+            ],
+            "BaseWidth": 957.591645744678,
+            "BaseHeight": 1619.84,
+            "BottomLeft": [-0.136666666666667, 0],
+            "TopLeft": [-0.136666666666667, 1.49851983422143],
+            "TopRight": [0.226666666666667, 0.891651865008881],
+            "BottomRight": [0.226666666666667, 0.260509177027827],
+            "GroutHSize": 0.5,
+            "GroutVSize": 0.5,
+            "OffsetX": 40,
+            "TileRateWidth": 0.315262156672,
+            "TileRateHeight": 0.478101333312,
+            "GUID": "L"
+          },
+          {
+            "TileType": [
+              "3",
+              "Paint"
+            ],
+            "BaseWidth": 974.020287263053,
+            "BaseHeight": 1640.96,
+            "BottomLeft": [0.761333333333333, 0.260509177027827],
+            "TopLeft": [0.761333333333333, 0.891651865008881],
+            "TopRight": [1.126, 1.51805802249852],
+            "BottomRight": [1.126, 0],
+            "GroutHSize": 0.5,
+            "GroutVSize": 0.5,
+            "TileRateWidth": 0.310272,
+            "TileRateHeight": 0.4841964608,
+            "GUID": "R"
+          }
+        ]
+      },
+      "DefinedAreas": [
+        {
+          "GUID": "F",
+          "AreaGUID": "F",
+          "BottomLeft": [0, 0],
+          "TopLeft": [0, 1],
+          "TopRight": [1, 1],
+          "BottomRight": [1, 0],
+          "NoResize": true
+        }
+      ]
+    }
+  }

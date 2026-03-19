@@ -1,0 +1,52 @@
+/* Global ScrollTop Styling for Sao Vàng Brand */
+.p-scrolltop {
+  background: linear-gradient(135deg, #00AEEF, #0078D4) !important;
+  color: white !important;
+  border: none !important;
+  box-shadow: 0 4px 12px rgba(0, 174, 239, 0.3) !important;
+  transition: all 0.3s ease !important;
+  border-radius: 50% !important;
+  width: 3rem !important;
+  height: 3rem !important;
+  position: fixed !important;
+  bottom: 2rem !important;
+  right: 2rem !important;
+  z-index: 1000 !important;
+}
+
+.p-scrolltop:hover {
+  background: linear-gradient(135deg, #0078D4, #00AEEF) !important;
+  transform: scale(1.1) !important;
+  box-shadow: 0 6px 16px rgba(0, 174, 239, 0.4) !important;
+}
+
+.p-scrolltop .p-scrolltop-icon {
+  color: white !important;
+  font-size: 1.2rem !important;
+}
+
+/* Specific styling for scroll-top-sv class */
+.scroll-top-sv,
+.p-scrolltop.scroll-top-sv {
+  background: linear-gradient(135deg, #00AEEF, #0078D4) !important;
+  color: white !important;
+  border: none !important;
+  box-shadow: 0 4px 12px rgba(0, 174, 239, 0.3) !important;
+  transition: all 0.3s ease !important;
+  border-radius: 50% !important;
+  width: 3rem !important;
+  height: 3rem !important;
+}
+
+.scroll-top-sv:hover,
+.p-scrolltop.scroll-top-sv:hover {
+  background: linear-gradient(135deg, #0078D4, #00AEEF) !important;
+  transform: scale(1.1) !important;
+  box-shadow: 0 6px 16px rgba(0, 174, 239, 0.4) !important;
+}
+
+.scroll-top-sv .p-scrolltop-icon,
+.p-scrolltop.scroll-top-sv .p-scrolltop-icon {
+  color: white !important;
+  font-size: 1.2rem !important;
+}

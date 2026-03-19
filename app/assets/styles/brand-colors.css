@@ -1,0 +1,148 @@
+/* Sao Vàng Brand Colors - Professional Color Palette */
+
+:root {
+  /* Primary Colors - Từ Logo */
+  --sv-primary-blue: #00AEEF;      /* Xanh cyan chính từ chữ SV */
+  --sv-primary-gold: #FFB300;     /* Vàng gold từ ngôi sao */
+  --sv-primary-black: #000000;    /* Đen từ nền logo */
+  
+  /* Secondary Colors - Biến thể */
+  --sv-secondary-blue: #0078D4;   /* Xanh đậm cho hover */
+  --sv-secondary-gold: #E6A200;   /* Vàng đậm cho accents */
+  --sv-dark-gray: #212121;        /* Xám đậm cho backgrounds */
+  
+  /* Neutral Colors - Trung tính */
+  --sv-white: #FFFFFF;            /* Trắng cho nền chính */
+  --sv-light-gray: #F8F8F8;      /* Xám nhạt cho nền phụ */
+  --sv-medium-gray: #666666;     /* Xám trung cho text phụ */
+  --sv-dark-text: #333333;       /* Xám đậm cho text chính */
+  
+  /* Semantic Colors - Màu ngữ nghĩa */
+  --sv-success: #10B981;          /* Xanh lá cho thành công */
+  --sv-warning: #F59E0B;         /* Cam cho cảnh báo */
+  --sv-error: #EF4444;           /* Đỏ cho lỗi */
+  --sv-info: var(--sv-primary-blue); /* Xanh cyan cho thông tin */
+}
+
+/* Utility Classes - Các class tiện ích */
+.text-sv-primary { color: var(--sv-primary-blue); }
+.text-sv-gold { color: var(--sv-primary-gold); }
+.text-sv-dark { color: var(--sv-dark-text); }
+
+.bg-sv-primary { background-color: var(--sv-primary-blue); }
+.bg-sv-gold { background-color: var(--sv-primary-gold); }
+.bg-sv-dark { background-color: var(--sv-dark-gray); }
+
+.border-sv-primary { border-color: var(--sv-primary-blue); }
+.border-sv-gold { border-color: var(--sv-primary-gold); }
+
+/* Button Styles - Kiểu nút */
+.btn-sv-primary {
+  background: linear-gradient(135deg, var(--sv-primary-blue), var(--sv-secondary-blue));
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-sv-primary:hover {
+  background: linear-gradient(135deg, var(--sv-secondary-blue), var(--sv-primary-blue));
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 174, 239, 0.3);
+}
+
+.btn-sv-gold {
+  background: linear-gradient(135deg, var(--sv-primary-gold), var(--sv-secondary-gold));
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-sv-gold:hover {
+  background: linear-gradient(135deg, var(--sv-secondary-gold), var(--sv-primary-gold));
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 179, 0, 0.3);
+}
+
+/* Card Styles - Kiểu thẻ */
+.card-sv {
+  background: var(--sv-white);
+  border: 1px solid #E5E7EB;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.card-sv:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+/* Header Styles - Kiểu header */
+.header-sv {
+  background: linear-gradient(135deg, var(--sv-dark-gray), var(--sv-primary-black));
+  color: var(--sv-white);
+}
+
+/* Footer Styles - Kiểu footer */
+.footer-sv {
+  background: var(--sv-dark-gray);
+  color: var(--sv-white);
+}
+
+/* Navigation Styles - Kiểu navigation */
+.nav-sv {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(0, 174, 239, 0.1);
+}
+
+/* Form Styles - Kiểu form */
+.input-sv {
+  border: 2px solid #E5E7EB;
+  border-radius: 8px;
+  padding: 12px 16px;
+  transition: all 0.3s ease;
+}
+
+.input-sv:focus {
+  border-color: var(--sv-primary-blue);
+  box-shadow: 0 0 0 3px rgba(0, 174, 239, 0.1);
+  outline: none;
+}
+
+/* Gradient Backgrounds - Nền gradient */
+.bg-gradient-sv {
+  background: linear-gradient(135deg, var(--sv-primary-blue), var(--sv-secondary-blue));
+}
+
+.bg-gradient-gold {
+  background: linear-gradient(135deg, var(--sv-primary-gold), var(--sv-secondary-gold));
+}
+
+/* Shadow Styles - Kiểu bóng */
+.shadow-sv {
+  box-shadow: 0 4px 12px rgba(0, 174, 239, 0.15);
+}
+
+.shadow-gold {
+  box-shadow: 0 4px 12px rgba(255, 179, 0, 0.15);
+}
+
+/* Responsive Design - Thiết kế responsive */
+@media (max-width: 768px) {
+  .btn-sv-primary,
+  .btn-sv-gold {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  
+  .card-sv {
+    margin: 8px;
+  }
+}

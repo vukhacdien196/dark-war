@@ -1,0 +1,97 @@
+{
+  "contact": {
+    "zalo": "https://zalo.me/0913910209",
+    "facebook": "https://facebook.com/saovangceramic",
+    "phone": "0913910209",
+    "phoneLink": "tel:0913910209",
+    "youtube": "https://youtube.com/@saovangceramic",
+    "tiktok": "https://tiktok.com/@saovangceramic",
+    "zaloOA": "https://zalo.me/saovangceramic",
+    "email": "info@saovangceramic.vn"
+  },
+  "social": {
+    "zalo": {
+      "url": "https://zalo.me/0913910209",
+      "icon": "pi pi-comments",
+      "label": "Chat Zalo",
+      "color": "#0068FF"
+    },
+    "facebook": {
+      "url": "https://facebook.com/saovangceramic",
+      "icon": "pi pi-facebook",
+      "label": "Facebook",
+      "color": "#1877F2"
+    },
+    "youtube": {
+      "url": "https://youtube.com/@saovangceramic",
+      "icon": "pi pi-youtube",
+      "label": "YouTube",
+      "color": "#FF0000"
+    },
+    "tiktok": {
+      "url": "https://tiktok.com/@saovangceramic",
+      "icon": "pi pi-tiktok",
+      "label": "TikTok",
+      "color": "#000000"
+    },
+    "phone": {
+      "url": "tel:0913910209",
+      "number": "0913910209",
+      "icon": "pi pi-phone",
+      "label": "Gọi điện",
+      "color": "#10B981"
+    },
+    "email": {
+      "url": "mailto:info@saovangceramic.vn",
+      "address": "info@saovangceramic.vn",
+      "icon": "pi pi-envelope",
+      "label": "Email",
+      "color": "#6B7280"
+    }
+  },
+  "footer": {
+    "socialLinks": [
+      {
+        "name": "facebook",
+        "url": "https://facebook.com/saovangceramic",
+        "icon": "pi pi-facebook",
+        "label": "Facebook",
+        "color": "#1877F2"
+      },
+      {
+        "name": "youtube",
+        "url": "https://youtube.com/@saovangceramic",
+        "icon": "pi pi-youtube",
+        "label": "YouTube",
+        "color": "#FF0000"
+      },
+      {
+        "name": "tiktok",
+        "url": "https://tiktok.com/@saovangceramic",
+        "icon": "pi pi-tiktok",
+        "label": "TikTok",
+        "color": "#000000"
+      },
+      {
+        "name": "zaloOA",
+        "url": "https://zalo.me/saovangceramic",
+        "icon": "pi pi-comments",
+        "label": "Zalo OA",
+        "color": "#0068FF"
+      }
+    ],
+    "contactInfo": {
+      "phone": {
+        "display": "0913 910 209",
+        "link": "tel:0913910209"
+      },
+      "email": {
+        "display": "info@saovangceramic.vn",
+        "link": "mailto:info@saovangceramic.vn"
+      },
+      "address": "Địa chỉ showroom sẽ được cập nhật",
+      "workingHours": "Thứ 2 - Chủ nhật: 8:00 - 18:00"
+    }
+  }
+}
+

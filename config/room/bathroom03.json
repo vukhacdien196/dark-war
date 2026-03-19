@@ -1,0 +1,198 @@
+{
+    "data": {
+      "Id": "bathroom03",
+      "Title": "Bath Room",
+      "BackgroundImageUrl": "/rooms/products/bathroom/03/background.jpg",
+      "RoomImageUrl": "/rooms/products/bathroom/03/room.png",
+      "GlossyImageUrl": "/rooms/products/bathroom/03/glossy.jpg",
+      "MattImageUrl": "/rooms/products/bathroom/03/matt.jpg",
+      "Width": 1920,
+      "Height": 1440,
+      "SetDesign": {
+        "WallAreas": [
+          {
+            "TileType": [
+              "2"
+            ],
+            "BaseWidth": 3520.8,
+            "BaseHeight": 1130.82234144,
+            "Boundary": [
+              [-0.1213333333, 0],
+              [0.1333333333, 0.2048888889],
+              [0.3003333333, 0.2048888889],
+              [0.332, 0.2495555556],
+              [0.6126666667, 0.2495555556],
+              [0.6345, 0.2048888889],
+              [0.6528333333, 0.2048888889],
+              [0.6528333333, 0.2495555556],
+              [0.756, 0.2495555556],
+              [1.011166667, 0]
+            ],
+            "BottomLeft": [-0.1213333333, 0],
+            "TopLeft": [0.1898333333, 0.2495555556],
+            "TopRight": [0.7964, 0.2495555556],
+            "BottomRight": [1.101166667, 0],
+            "OffsetY": -120,
+            "TileRateWidth": 0.67848,
+            "TileRateHeight": 0.34717154472,
+            "GUID": "F"
+          },
+          {
+            "TileType": [
+              "3",
+              "Paint"
+            ],
+            "BottomLeft": [-0.1213333333, 0],
+            "TopLeft": [-0.1213333333, 1.129333333],
+            "TopRight": [0.1333333333, 0.8713333333],
+            "BottomRight": [0.1333333333, 0.2048888889],
+            "BaseHeight": 2439.36,
+            "BaseWidth": 921.13800912,
+            "OffsetX": 144,
+            "TileRateWidth": 0.44688,
+            "TileRateHeight": 0.696406153824,
+            "GUID": "L"
+          },
+          {
+            "TileType": [
+              "3",
+              "Paint"
+            ],
+            "BottomLeft": [0.1333333333, 0.2048888889],
+            "TopLeft": [0.1333333333, 0.8713333333],
+            "TopRight": [0.3003333333, 0.8713333333],
+            "BottomRight": [0.3003333333, 0.2048888889],
+            "BaseHeight": 1439.52,
+            "BaseWidth": 481.44,
+            "TileRateWidth": 0.401367741936,
+            "TileRateHeight": 0.411200000016,
+            "GUID": "MFL"
+          },
+          {
+            "TileType": [
+              "3",
+              "Paint"
+            ],
+            "BottomLeft": [0.6345, 0.2048888889],
+            "TopLeft": [0.6345, 0.8713333333],
+            "TopRight": [0.6528333333, 0.8713333333],
+            "BottomRight": [0.6528333333, 0.2048888889],
+            "BaseHeight": 1439.52,
+            "BaseWidth": 96,
+            "TileRateWidth": 0.401367741936,
+            "TileRateHeight": 0.411200000016,
+            "GUID": "MFR"
+          },
+          {
+            "TileType": [
+              "3",
+              "Paint"
+            ],
+            "Boundary": [
+              [0.3306666667, 0.2495555556],
+              [0.3306666667, 0.8217777778],
+              [0.6141666667, 0.8217777778],
+              [0.6141666667, 0.2495555556],
+              [0.6528333333, 0.2495555556],
+              [0.6528333333, 0.8217777778],
+              [0.756, 0.8217777778],
+              [0.756, 0.2495555556]
+            ],
+            "BottomLeft": [0.3306666667, 0.2495555556],
+            "TopLeft": [0.3306666667, 0.8217777778],
+            "TopRight": [0.756, 0.8217777778],
+            "BottomRight": [0.756, 0.2495555556],
+            "BaseHeight": 1236,
+            "BaseWidth": 1228.8,
+            "TileRateWidth": 0.3399781333344,
+            "TileRateHeight": 0.3478849524,
+            "GUID": "M"
+          },
+          {
+            "TileType": [
+              "3",
+              "Paint"
+            ],
+            "BottomLeft": [0.3003333333, 0.2048888889],
+            "TopLeft": [0.3003333333, 0.8786666667],
+            "TopRight": [0.3306666667, 0.8217777778],
+            "BottomRight": [0.3306666667, 0.2495555556],
+            "BaseHeight": 1455.36,
+            "BaseWidth": 150.768909264,
+            "TileRateWidth": 0.212430769248,
+            "TileRateHeight": 0.4092190476,
+            "GUID": "ML"
+          },
+          {
+            "TileType": [
+              "3",
+              "Paint"
+            ],
+            "BottomLeft": [0.6141666667, 0.2495555556],
+            "TopLeft": [0.6141666667, 0.8217777778],
+            "TopRight": [0.6345, 0.8786666667],
+            "BottomRight": [0.6345, 0.2048888889],
+            "BaseHeight": 1455.36,
+            "BaseWidth": 136.120417296,
+            "TileRateWidth": 0.174153846144,
+            "TileRateHeight": 0.4092190476,
+            "GUID": "MR"
+          },
+          {
+            "TileType": [
+              "3",
+              "Paint"
+            ],
+            "Boundary": [
+              [0.756, 0.2495555556],
+              [0.756, 0.8217777778],
+              [0.7616666667, 0.8217777778],
+              [0.7921666667, 0.8595555556],
+              [0.7921666667, 0.356],
+              [0.8788333333, 0.3135555556],
+              [0.8788333333, 0.9666666667],
+              [1.011166667, 1.129333333],
+              [1.011166667, 0]
+            ],
+            "BottomLeft": [0.756, 0.2495555556],
+            "TopLeft": [0.756, 0.8217777778],
+            "TopRight": [1.011166667, 1.129333333],
+            "BottomRight": [1.011166667, 0],
+            "BaseHeight": 2473.92,
+            "BaseWidth": 1014.14095104,
+            "TileRateWidth": 0.33744,
+            "TileRateHeight": 0.686843508768,
+            "GroutHSize": 0.5,
+            "GUID": "R"
+          },
+          {
+            "TileType": [
+              "3",
+              "Paint"
+            ],
+            "BottomLeft": [0.7921666667, 0.356],
+            "TopLeft": [0.7921666667, 0.8595555556],
+            "TopRight": [0.8788333333, 0.8595555556],
+            "BottomRight": [0.8788333333, 0.356],
+            "BaseHeight": 1087.68,
+            "BaseWidth": 249.6,
+            "OffsetY": 176,
+            "TileRateWidth": 0.416000000016,
+            "TileRateHeight": 0.39646297872,
+            "GUID": "RM"
+          }
+        ]
+      },
+      "DefinedAreas": [
+        {
+          "GUID": "F",
+          "AreaGUID": "F",
+          "BottomLeft": [0, 0],
+          "TopLeft": [0, 1],
+          "TopRight": [1, 1],
+          "BottomRight": [1, 0],
+          "NoResize": true
+        }
+      ]
+    }
+  }
