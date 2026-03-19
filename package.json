@@ -1,0 +1,48 @@
+{
+  "name": "nuxt-app",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "db:generate": "prisma generate",
+    "db:push": "prisma db push",
+    "db:migrate": "prisma migrate dev",
+    "db:seed": "npx tsx prisma/seed.ts",
+    "db:studio": "prisma studio",
+    "db:reset": "prisma migrate reset",
+    "setup": "npm install && npm run db:generate && npm run db:push && npm run db:seed"
+  },
+  "dependencies": {
+    "@primeuix/themes": "^1.2.3",
+    "@prisma/client": "^5.22.0",
+    "@tailwindcss/vite": "^4.1.12",
+    "better-auth": "^0.7.0",
+    "chart.js": "^4.5.0",
+    "html2canvas": "^1.4.1",
+    "konva": "^9.3.22",
+    "nuxt": "^4.0.3",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.3.9",
+    "prisma": "^5.22.0",
+    "tailwind-merge": "^3.3.1",
+    "tailwindcss-primeui": "^0.6.1",
+    "vue": "^3.5.18",
+    "vue-konva": "^3.2.2",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@primevue/nuxt-module": "^4.3.9",
+    "@types/better-sqlite3": "^7.6.12",
+    "@vueuse/core": "^13.9.0",
+    "@vueuse/nuxt": "^13.9.0",
+    "prisma": "^5.22.0",
+    "sass": "^1.90.0"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  }
+}
