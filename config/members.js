@@ -12,6 +12,11 @@ export const ALLIANCE_MEMBERS = [
         uid: '1033829964000492',
         role: 'leader',
         note: 'R4',
+    },
+    {
+        uid: '1338934587000492',
+        role: 'leader',
+        note: 'R4',
     }
    
 ]
