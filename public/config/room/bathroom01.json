@@ -1,0 +1,87 @@
+{
+    "data": {
+      "Id": "bathroom01",
+      "Title": "Bath Room",
+      "BackgroundImageUrl": "/rooms/products/bathroom/01/background.jpg",
+      "RoomImageUrl": "/rooms/products/bathroom/01/room.png",
+      "GlossyImageUrl": "/rooms/products/bathroom/01/glossy.jpg",
+      "MattImageUrl": "/rooms/products/bathroom/01/matt.jpg",
+      "Width": 1920,
+      "Height": 1440,
+      "SetDesign": {
+        "WallAreas": [
+          {
+            "TileType": [
+              "2"
+            ],
+            "BaseWidth": 2152.8,
+            "BaseHeight": 782.541336927322,
+            "BottomLeft": [0, -0.0463333333333333],
+            "TopLeft": [0.27275, 0.252333333333333],
+            "TopRight": [0.78075, 0.252333333333333],
+            "BottomRight": [1.12125, -0.0463333333333333],
+            "TileRateWidth": 0.69999532704,
+            "TileRateHeight": 0.255887825664,
+            "GUID": "F"
+          },
+          {
+            "TileType": [
+              "3",
+              "Paint"
+            ],
+            "BaseWidth": 975.36,
+            "BaseHeight": 884.64,
+            "BottomLeft": [0.27275, 0.252333333333333],
+            "TopLeft": [0.27275, 0.866666666666667],
+            "TopRight": [0.78075, 0.866666666666667],
+            "BottomRight": [0.78075, 0.252333333333333],
+            "TileRateWidth": 0.317143925232,
+            "TileRateHeight": 0.319606438224,
+            "GUID": "M"
+          },
+          {
+            "TileType": [
+              "3",
+              "Paint"
+            ],
+            "BaseWidth": 826.822815360101,
+            "BaseHeight": 1954.56,
+            "BottomLeft": [0, -0.0463333333333333],
+            "TopLeft": [0, 1.311],
+            "TopRight": [0.27275, 0.866666666666667],
+            "BottomRight": [0.27275, 0.252333333333333],
+            "TileRateWidth": 0.2688462036,
+            "TileRateHeight": 0.70607669376,
+            "GUID": "L"
+          },
+          {
+            "TileType": [
+              "3",
+              "Paint"
+            ],
+            "BaseWidth": 914.766288841037,
+            "BaseHeight": 1954.56,
+            "BottomLeft": [0.78025, 0.252333333333333],
+            "TopLeft": [0.78025, 0.866666666666667],
+            "TopRight": [1.12125, 1.311],
+            "BottomRight": [1.12125, -0.0463333333333333],
+            "OffsetX": 33,
+            "TileRateWidth": 0.296772997872,
+            "TileRateHeight": 0.70615160976,
+            "GUID": "R"
+          }
+        ]
+      },
+      "DefinedAreas": [
+        {
+          "GUID": "F",
+          "AreaGUID": "F",
+          "BottomLeft": [0, 0],
+          "TopLeft": [0, 1],
+          "TopRight": [1, 1],
+          "BottomRight": [1, 0],
+          "NoResize": true
+        }
+      ]
+    }
+  }

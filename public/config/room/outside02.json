@@ -1,0 +1,110 @@
+{
+    "data": {
+      "Id": "outside02",
+      "Title": "Swimming Pool",
+      "BackgroundImageUrl": "/rooms/products/outside/02/background.jpg",
+      "GlossyImageUrl": "/rooms/products/outside/02/glossy.jpg",
+      "RoomImageUrl": "/rooms/products/outside/02/room.png",
+      "Width": 1920,
+      "Height": 1440,
+      "SetDesign": {
+        "WallAreas": [
+          {
+            "TileType": [
+              "2"
+            ],
+            "BaseWidth": 5756.64,
+            "BaseHeight": 2032.32,
+            "BottomLeft": [-0.091, 0],
+            "TopLeft": [0.2943333333, 0.3235555556],
+            "TopRight": [1, 0.3235555556],
+            "BottomRight": [1.907833333, 0],
+            "GroutHSize": 0,
+            "GroutVSize": 0,
+            "TileRateWidth": 0.957680000016,
+            "TileRateHeight": 0.67296,
+            "GUID": "F"
+          },
+          {
+            "TileType": [
+              "3",
+              "Paint"
+            ],
+            "BaseWidth": 2331.84,
+            "BaseHeight": 471.84,
+            "BottomLeft": [0.1903333333, 0.4233333333],
+            "TopLeft": [0.1903333333, 0.6417777778],
+            "TopRight": [1, 0.6417777778],
+            "BottomRight": [1, 0.4233333333],
+            "GroutHSize": 0,
+            "GroutVSize": 0,
+            "TileRateWidth": 0.273730909104,
+            "TileRateHeight": 0.2616,
+            "GUID": "M"
+          },
+          {
+            "TileType": [
+              "3",
+              "Paint"
+            ],
+            "BaseWidth": 856.4238504,
+            "BaseHeight": 964.8,
+            "BottomLeft": [-0.091, 0.3235555556],
+            "TopLeft": [-0.091, 0.7702222222],
+            "TopRight": [0.1903333333, 0.6417777778],
+            "BottomRight": [0.1903333333, 0.4233333333],
+            "TileRateWidth": 0.21504,
+            "TileRateHeight": 0.540274285728,
+            "GroutHSize": 0,
+            "GroutVSize": 0,
+            "GUID": "L"
+          },
+          {
+            "TileType": [
+              "3",
+              "Paint"
+            ],
+            "BaseWidth": 1311.48789984,
+            "BaseHeight": 493.92,
+            "BottomLeft": [-0.091, 0],
+            "TopLeft": [-0.091, 0.2286666667],
+            "TopRight": [0.2943333333, 0.404],
+            "BottomRight": [0.2943333333, 0.3235555556],
+            "TileRateWidth": 0.21504,
+            "TileRateHeight": 0.98784,
+            "GroutHSize": 0,
+            "GroutVSize": 0,
+            "GUID": "LF"
+          },
+          {
+            "TileType": [
+              "3",
+              "Paint"
+            ],
+            "BaseWidth": 2032.32,
+            "BaseHeight": 173.76,
+            "BottomLeft": [0.2943333333, 0.3235555556],
+            "TopLeft": [0.2943333333, 0.404],
+            "TopRight": [1, 0.404],
+            "BottomRight": [1, 0.3235555556],
+            "TileRateWidth": 0.3384,
+            "TileRateHeight": 0.34752,
+            "GroutHSize": 0,
+            "GroutVSize": 0,
+            "GUID": "MF"
+          }
+        ]
+      },
+      "DefinedAreas": [
+        {
+          "GUID": "F",
+          "AreaGUID": "F",
+          "BottomLeft": [0, 0],
+          "TopLeft": [0, 1],
+          "TopRight": [1, 1],
+          "BottomRight": [1, 0],
+          "NoResize": true
+        }
+      ]
+    }
+  }

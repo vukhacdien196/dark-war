@@ -1,0 +1,71 @@
+{
+    "data": {
+      "Id": "kitchen02",
+      "Title": "Kitchen",
+      "BackgroundImageUrl": "/rooms/products/kitchen/02/background.jpg",
+      "RoomImageUrl": "/rooms/products/kitchen/02/room.png",
+      "GlossyImageUrl": "/rooms/products/kitchen/02/glossy.jpg",
+      "MattImageUrl": "/rooms/products/kitchen/02/matt.jpg",
+      "Width": 1920,
+      "Height": 1440,
+      "SetDesign": {
+        "WallAreas": [
+          {
+            "TileType": [
+              "2"
+            ],
+            "BaseWidth": 5329.92,
+            "BaseHeight": 2125.4999448,
+            "BottomLeft": [-0.1461666667, 0],
+            "TopLeft": [0.2421666667, 0.3002222222],
+            "TopRight": [1, 0.3002222222],
+            "BottomRight": [1.702833333, 0],
+            "TileRateWidth": 0.931764210528,
+            "TileRateHeight": 0.650071415424,
+            "GUID": "F"
+          },
+          {
+            "TileType": [
+              "3",
+              "Paint"
+            ],
+            "BottomLeft": [0.2421666667, 0.3002222222],
+            "TopLeft": [0.2421666667, 0.7904444444],
+            "TopRight": [1, 0.7904444444],
+            "BottomRight": [1, 0.3002222222],
+            "BaseHeight": 1058.88,
+            "BaseWidth": 2182.56,
+            "TileRateWidth": 0.382147368432,
+            "TileRateHeight": 0.362391752592,
+            "GUID": "M"
+          },
+          {
+            "TileType": [
+              "3",
+              "Paint"
+            ],
+            "BottomLeft": [-0.1461666667, 0],
+            "TopLeft": [-0.1461666667, 1.225555556],
+            "TopRight": [0.2421666667, 0.7904444444],
+            "BottomRight": [0.2421666667, 0.3002222222],
+            "BaseHeight": 2647.2,
+            "BaseWidth": 1460.86200096,
+            "TileRateWidth": 0.459800000016,
+            "TileRateHeight": 0.906146666688,
+            "GUID": "L"
+          }
+        ]
+      },
+      "DefinedAreas": [
+        {
+          "GUID": "F",
+          "AreaGUID": "F",
+          "BottomLeft": [0, 0],
+          "TopLeft": [0, 1],
+          "TopRight": [1, 1],
+          "BottomRight": [1, 0],
+          "NoResize": true
+        }
+      ]
+    }
+  }
