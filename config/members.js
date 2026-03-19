@@ -12,12 +12,8 @@ export const ALLIANCE_MEMBERS = [
         uid: '1033829964000492',
         role: 'leader',
         note: 'R4',
-    },
-    {
-        uid: '1337068224000492',
-        role: 'leader',
-        note: 'R3',
     }
+   
 ]
 
 /** Leaders — hiển thị trên giao diện */
