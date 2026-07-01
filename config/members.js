@@ -49,7 +49,7 @@ export const ALLIANCE_MEMBERS = [
     { uid: '1752637336000492', role: 'member', note: 'R3' },
     { uid: '1020736388000492', role: 'member', note: 'R3' },
     { uid: '1458755341000492', role: 'member', note: 'R3' },
-    { uid: '1648521133000482', role: 'member', note: 'R3' }, // Sửa nhẹ đuôi từ list cũ
+    { uid: '1648521133000482', role: 'member', note: 'R3' },
     { uid: '1739860780000492', role: 'member', note: 'R3' },
     { uid: '1774197620000492', role: 'member', note: 'R3' },
     { uid: '1794719796000492', role: 'member', note: 'R3' },
@@ -58,8 +58,6 @@ export const ALLIANCE_MEMBERS = [
     { uid: '1512810332000487', role: 'member', note: 'R3' },
     { uid: '1224048754000487', role: 'member', note: 'R3' },
     { uid: '1375004768000487', role: 'member', note: 'R3' },
-
-    // ── Các member mới được thêm vào từ danh sách tiếp theo ──────────────────
     { uid: '1058728821000486', role: 'member', note: 'R3' },
     { uid: '1027573446000486', role: 'member', note: 'R3' },
     { uid: '1164419208000486', role: 'member', note: 'R3' },
@@ -105,7 +103,13 @@ export const ALLIANCE_MEMBERS = [
     { uid: '1694064821000482', role: 'member', note: 'R3' },
     { uid: '1045685698000482', role: 'member', note: 'R3' },
     { uid: '1214121805000482', role: 'member', note: 'R3' },
-    { uid: '1699696455000482', role: 'member', note: 'R3' }
+    { uid: '1699696455000482', role: 'member', note: 'R3' },
+
+    // ── 4 thành viên mới tinh vừa được thêm vào ──────────────────────────────
+    { uid: '1035724232000592', role: 'member', note: 'R3' },
+    { uid: '1560578597000592', role: 'member', note: 'R3' },
+    { uid: '1000661539000590', role: 'member', note: 'R3' },
+    { uid: '1465795033000592', role: 'member', note: 'R3' }
 ]
 
 /** Leaders — hiển thị trên giao diện */
